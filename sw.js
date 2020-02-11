@@ -3,6 +3,7 @@ self.addEventListener('install', function(e) {
 	  caches.open('video-store').then(function(cache) {
 		return cache.addAll([
 		  '/PWATest',
+		  '/PWATest/index.html',
 		]);
 	  })
 	);
