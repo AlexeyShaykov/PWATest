@@ -4,6 +4,7 @@ self.addEventListener('install', function(e) {
 		return cache.addAll([
 		  '/PWATest',
 		  '/PWATest/index.html',
+		  '/PWATest/script.js',
 		]);
 	  })
 	);
